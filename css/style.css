@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    height: 315px;
+    width: 315px;
+    border: 1px solid rgb(25, 25, 65);
+    border-radius: 5px;
+    margin: 10rem auto;
+    text-align: center;
+    background: linear-gradient(rgba(57, 57, 82, 0.534), rgba(78, 61, 61, 0.541)), 
+    url('../images/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container > input, .container button {
+    /* kõik input elemendid ja button */
+    display: block;
+    margin: 1rem auto;
+    /* auto paneb keskele */
+
+}
+
+.container button {
+    width: 5rem;
+    margin-top: 1.5rem;
+    padding: 0.3rem;
+    color: aliceblue;
+    background-color: rgba(59, 41, 65, 0.699);
+}
+
+.container h3 {
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    color:azure;
+    text-transform: capitalize;
+}
+
+.container .favouriteMovieTitle {
+    margin-bottom: 0.8rem;
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.container .MovieReleaseYear {
+    color: azure;
+    font-size: 1.5rem;
+}
